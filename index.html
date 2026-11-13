@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>101 Segreti per Risparmiare fino a 2.500 € l'Anno | Il Quaderno di Casa</title>
-<meta name="description" content="I trucchi del quaderno nero di mia madre: spesa, bollette, banca e farmacia. Guida PDF di 113 pagine scritta in grande. 17,90 € una volta sola.">
+<meta name="description" content="I trucchi del quaderno nero di mia madre per spendere meno ogni giorno: spesa, caffè, bollette, banca e farmacia, gli aiuti che spettano e come evitare le truffe. PDF di 113 pagine scritto in grande. 17,90 € una volta sola.">
 <meta property="og:title" content="101 Segreti per Risparmiare fino a 2.500 € l'Anno">
-<meta property="og:description" content="I trucchi del quaderno nero di mia madre: spesa, bollette, banca e farmacia. PDF di 113 pagine scritto in grande.">
+<meta property="og:description" content="I trucchi del quaderno nero di mia madre, aggiornati al 2026: spesa, bollette, banca, farmacia e truffe. PDF scritto in grande, download immediato.">
 <meta property="og:image" content="https://il-quaderno-di-casa.github.io/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -19,181 +19,547 @@
 <link rel="icon" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Source+Sans+3:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#fbf4e8;--bg2:#f4e6cf;--ink:#2a1d14;--muted:#5b4636;--red:#c0281f;--red2:#9e1f18;--line:#e3d2b6;--card:#fffaf2;--green:#2f6b3a}
+:root{
+  --bg:#fbf6ee; --bg2:#f3e8d6; --paper:#fffdf8; --ink:#22170f; --muted:#5a4637; --line:#e6d6bd;
+  --red:#b3261e; --red2:#8f1c16; --navy:#1d3557; --gold:#b8862b; --green:#2e6b3a; --green-bg:#eaf4ec;
+  --shadow:0 18px 40px rgba(60,30,10,.16);
+}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:'Source Sans 3',Arial,sans-serif;font-size:21px;line-height:1.55;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Source Sans 3',Arial,sans-serif;font-size:21px;line-height:1.6;-webkit-text-size-adjust:100%}
 img{max-width:100%;height:auto;display:block}
-.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.15;margin:0 0 .5em}
-h1{font-size:clamp(36px,6vw,60px);font-weight:900}
-h2{font-size:clamp(30px,4.6vw,44px);font-weight:900}
-h3{font-size:26px}
+a{color:var(--red)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.narrow{max-width:760px;margin:0 auto;padding:0 22px}
+section{padding:72px 0}
+h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.15;margin:0 0 .45em;letter-spacing:-.005em}
+h2{font-size:clamp(32px,4.6vw,46px);font-weight:900}
+h3{font-size:25px;font-weight:700}
 p{margin:0 0 1em}
-.top{border-bottom:1px solid var(--line);padding:14px 0;text-align:center;font-family:'Playfair Display',serif;font-weight:700;font-size:22px;letter-spacing:.3px}
-section{padding:56px 0}
-.alt{background:var(--bg2)}
-.kicker{color:var(--red);font-weight:700;text-transform:uppercase;letter-spacing:1.5px;font-size:17px;margin-bottom:12px}
-.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;align-items:center}
-.hero .sub{font-size:23px;color:var(--muted)}
-.big{font-size:clamp(40px,7vw,64px);color:var(--red);font-family:'Playfair Display',serif;font-weight:900;white-space:nowrap}
-.cover{border-radius:6px;box-shadow:0 22px 50px rgba(60,30,10,.28),0 4px 10px rgba(60,30,10,.18);transform:rotate(-2deg)}
-.btn{display:block;width:100%;max-width:520px;text-align:center;background:var(--red);color:#fff;text-decoration:none;font-weight:700;font-size:25px;padding:20px 24px;border-radius:12px;box-shadow:0 6px 0 var(--red2);margin:22px 0 10px;transition:transform .08s}
-.btn:hover{background:#b1231b}
-.btn:active{transform:translateY(3px);box-shadow:0 3px 0 var(--red2)}
-.center .btn{margin-left:auto;margin-right:auto}
-.small{font-size:17px;color:var(--muted)}
 .center{text-align:center}
-.grid4{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:26px 0}
-.pill{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:flex;gap:12px;align-items:flex-start;font-weight:600}
-.x{flex:0 0 28px;height:28px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:700;margin-top:2px}
-.alert{background:var(--red);color:#fff;border-radius:14px;padding:22px 24px;font-size:24px;font-weight:700;text-align:center}
-.story{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
-.story img{border-radius:14px;box-shadow:0 12px 30px rgba(60,30,10,.2)}
-.check{list-style:none;padding:0;margin:22px 0}
-.check li{position:relative;padding:12px 0 12px 46px;border-bottom:1px dashed var(--line)}
-.check li:before{content:"✓";position:absolute;left:0;top:12px;width:32px;height:32px;border-radius:50%;background:var(--green);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:19px}
-.pages{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:26px}
-.pages img{border-radius:6px;border:1px solid var(--line);box-shadow:0 6px 16px rgba(60,30,10,.12);background:#fff}
-.bonus{background:var(--card);border:3px dashed var(--red);border-radius:18px;padding:30px 26px}
-.bonus ol{margin:12px 0 0;padding-left:28px}
-.bonus li{margin:8px 0;font-weight:600}
-.price{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:40px 24px;max-width:640px;margin:0 auto;box-shadow:0 14px 36px rgba(60,30,10,.12)}
-.price .p{font-family:'Playfair Display',serif;font-weight:900;font-size:clamp(64px,12vw,96px);color:var(--red);line-height:1;margin:10px 0}
-.trust{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;margin-top:14px;font-size:17px;color:var(--muted)}
-details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 22px;margin:12px 0}
-summary{cursor:pointer;font-weight:700;font-size:22px;list-style:none}
+.muted{color:var(--muted)}
+.kicker{color:var(--red);font-weight:800;text-transform:uppercase;letter-spacing:.16em;font-size:16px;margin-bottom:14px}
+.red{color:var(--red)}
+.nowrap{white-space:nowrap}
+
+/* top ribbon */
+.ribbon{background:var(--navy);color:#fff;text-align:center;font-size:16px;font-weight:600;padding:9px 14px;letter-spacing:.02em}
+.ribbon span{opacity:.6;margin:0 8px}
+.brandbar{text-align:center;padding:16px 0;border-bottom:1px solid var(--line);font-family:'Playfair Display',serif;font-weight:700;font-size:23px}
+
+/* buttons */
+.btn{display:inline-block;background:linear-gradient(180deg,#c42c23,#a8231c);color:#fff;text-decoration:none;font-weight:800;font-size:24px;line-height:1.2;padding:21px 34px;border-radius:14px;box-shadow:0 6px 0 var(--red2),0 14px 26px rgba(179,38,30,.28);transition:transform .08s, box-shadow .08s;text-align:center}
+.btn:hover{filter:brightness(1.05)}
+.btn:active{transform:translateY(4px);box-shadow:0 2px 0 var(--red2),0 6px 14px rgba(179,38,30,.25)}
+.btn small{display:block;font-weight:600;font-size:16px;opacity:.92;margin-top:4px}
+.btn.wide{display:block;width:100%;max-width:560px;margin-left:auto;margin-right:auto}
+.micro{font-size:16.5px;color:var(--muted);margin-top:14px}
+.micro b{color:var(--ink)}
+
+/* hero */
+.hero{padding:54px 0 70px;background:radial-gradient(1200px 500px at 70% 10%,#fff7e8 0%,transparent 60%)}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(40px,5.6vw,62px);font-weight:900}
+.hero h1 .amt{color:var(--red);white-space:nowrap}
+.hero .sub{font-size:23px;color:var(--muted);margin-bottom:26px}
+.book{perspective:1600px;display:flex;justify-content:center}
+.book .b3d{position:relative;width:min(380px,82%);transform:rotateY(-14deg) rotateX(2deg);transform-style:preserve-3d;border-radius:4px 10px 10px 4px;box-shadow:-2px 0 0 #6d4b2a inset,22px 30px 50px rgba(40,20,5,.35),6px 8px 14px rgba(40,20,5,.2)}
+.book .b3d img{border-radius:3px 9px 9px 3px}
+.book .b3d:before{content:"";position:absolute;inset:0 auto 0 0;width:14px;background:linear-gradient(90deg,rgba(0,0,0,.28),rgba(255,255,255,.12) 60%,transparent);border-radius:3px 0 0 3px}
+.badge{position:absolute;left:-26px;bottom:70px;width:118px;height:118px;border-radius:50%;background:var(--navy);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:15px;line-height:1.15;box-shadow:0 10px 22px rgba(0,0,0,.25);transform:rotate(-8deg) translateZ(30px)}
+.badge b{font-family:'Playfair Display',serif;font-size:30px;font-weight:900}
+.checks{list-style:none;padding:0;margin:0 0 26px}
+.checks li{position:relative;padding-left:40px;margin:9px 0}
+.checks li:before{content:"✓";position:absolute;left:0;top:2px;width:28px;height:28px;border-radius:50%;background:var(--green);color:#fff;font-size:17px;font-weight:800;display:flex;align-items:center;justify-content:center}
+
+/* facts strip */
+.facts{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:44px 0}
+.facts-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.fact{text-align:center;padding:6px 10px}
+.fact .n{font-family:'Playfair Display',serif;font-weight:900;font-size:46px;color:var(--red);line-height:1}
+.fact .t{font-size:18.5px;margin-top:8px}
+.fact .s{font-size:14px;color:var(--muted);margin-top:6px}
+
+/* pain */
+.pain{background:var(--bg2)}
+.x-list{list-style:none;padding:0;margin:26px 0;display:grid;gap:12px}
+.x-list li{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px 20px 16px 62px;position:relative;font-weight:600}
+.x-list li:before{content:"✕";position:absolute;left:18px;top:50%;transform:translateY(-50%);width:30px;height:30px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800}
+.callout{background:var(--navy);color:#fff;border-radius:18px;padding:26px 30px;font-size:22px}
+.callout b{color:#ffd98a}
+
+/* story */
+.story-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.story img{border-radius:18px;box-shadow:var(--shadow)}
+blockquote.mom{margin:22px 0;padding:6px 0 6px 22px;border-left:5px solid var(--gold);font-family:'Playfair Display',serif;font-style:italic;font-size:27px;line-height:1.35}
+
+/* calculator */
+.calc{background:linear-gradient(180deg,#fff,#fdf8ef);border:2px solid var(--line);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}
+.calc-head{background:var(--red);color:#fff;padding:22px 28px}
+.calc-head h2{color:#fff;font-size:clamp(28px,4vw,38px);margin:0}
+.calc-head p{margin:6px 0 0;opacity:.95;font-size:19px}
+.calc-body{padding:12px 18px 6px}
+.q{display:flex;gap:16px;align-items:center;padding:14px 12px;border-bottom:1px dashed var(--line);cursor:pointer;border-radius:12px;transition:background .15s}
+.q:hover{background:#fff6ea}
+.q input{appearance:none;-webkit-appearance:none;flex:0 0 34px;height:34px;border:3px solid #b9a689;border-radius:9px;background:#fff;display:grid;place-content:center;cursor:pointer;margin:0}
+.q input:checked{background:var(--red);border-color:var(--red)}
+.q input:checked:after{content:"✓";color:#fff;font-weight:900;font-size:21px;line-height:1}
+.q span.txt{flex:1;font-size:19.5px}
+.q span.amt{font-weight:800;color:var(--red);white-space:nowrap;font-size:18px}
+.calc-foot{background:var(--navy);color:#fff;padding:24px 28px;display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
+.calc-foot .lbl{font-size:18px;opacity:.9}
+.calc-foot .total{font-family:'Playfair Display',serif;font-weight:900;font-size:52px;line-height:1;color:#ffd98a}
+.calc-foot .msg{font-size:18.5px;max-width:470px}
+.calc-cta{padding:22px 18px 26px;text-align:center;background:#fff}
+
+/* inside */
+.parts{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}
+.part{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px 22px;box-shadow:0 6px 16px rgba(60,30,10,.06);position:relative}
+.part .ic{font-size:34px;line-height:1}
+.part .pn{font-size:14px;font-weight:800;color:var(--red);letter-spacing:.14em;text-transform:uppercase;margin-top:10px}
+.part h3{font-size:24px;margin:4px 0 8px}
+.part ul{margin:0;padding-left:20px;font-size:18px;color:var(--muted)}
+.part ul li{margin:4px 0}
+.part .cnt{position:absolute;top:18px;right:18px;background:var(--bg2);border-radius:999px;padding:2px 12px;font-size:14.5px;font-weight:800;color:var(--muted)}
+
+/* free secrets */
+.free{background:var(--bg2)}
+.secret{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px 28px 22px 92px;position:relative;margin:18px 0;box-shadow:0 6px 16px rgba(60,30,10,.06)}
+.secret .num{position:absolute;left:24px;top:24px;width:50px;height:50px;border-radius:50%;background:var(--red);color:#fff;font-family:'Playfair Display',serif;font-weight:900;font-size:22px;display:flex;align-items:center;justify-content:center}
+.secret h3{font-size:25px}
+.secret .do{background:var(--green-bg);border-radius:12px;padding:12px 16px;font-size:19.5px}
+.secret .do b{color:var(--green)}
+
+/* previews */
+.pages{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:28px}
+.pages figure{margin:0;text-align:center}
+.pages img{border-radius:6px;border:1px solid var(--line);box-shadow:0 12px 26px rgba(60,30,10,.14);background:#fff}
+.pages figcaption{font-size:16px;color:var(--muted);margin-top:10px}
+
+/* bonus */
+.bonus{border:3px dashed var(--red);border-radius:22px;padding:30px 30px 20px;background:var(--paper)}
+.bonus-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 26px;margin-top:16px}
+.bonus-item{display:flex;gap:14px;align-items:flex-start}
+.bonus-item .ic{font-size:30px;line-height:1.1}
+.bonus-item b{display:block;font-size:20.5px}
+.bonus-item span{font-size:17.5px;color:var(--muted)}
+
+/* who */
+.who-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:28px;margin-top:20px}
+.who{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px 26px}
+.who.no li:before{content:"–";background:#9a8b7a}
+
+/* price */
+.price-sec{background:radial-gradient(900px 400px at 50% 0%,#fff 0%,var(--bg2) 70%)}
+.pricebox{max-width:660px;margin:0 auto;background:var(--paper);border-radius:26px;box-shadow:0 26px 60px rgba(60,30,10,.22);border:1px solid var(--line);overflow:hidden;text-align:center}
+.pricebox .top{background:var(--navy);color:#fff;padding:16px;font-weight:700;letter-spacing:.04em}
+.pricebox .inner{padding:30px 30px 28px}
+.pricebox .cov{width:150px;margin:0 auto 16px;box-shadow:0 14px 28px rgba(40,20,5,.3);border-radius:3px 7px 7px 3px}
+.pricebox .price{font-family:'Playfair Display',serif;font-weight:900;font-size:76px;line-height:1;color:var(--red);margin:6px 0 4px}
+.pricebox .once{font-weight:700;font-size:20px}
+.value{list-style:none;padding:0;margin:20px 0 24px;text-align:left}
+.value li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px dashed var(--line);padding:9px 2px;font-size:18.5px}
+.value li b{white-space:nowrap}
+.trust{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;margin-top:16px;font-size:16px;color:var(--muted)}
+.compare{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:center;margin:8px 0 6px}
+.compare .c{background:var(--bg);border-radius:14px;padding:12px}
+.compare .c b{display:block;font-family:'Playfair Display',serif;font-size:30px;color:var(--ink)}
+.compare .c.big b{color:var(--green)}
+.compare .vs{font-weight:800;color:var(--muted)}
+
+/* faq */
+details{background:var(--paper);border:1px solid var(--line);border-radius:14px;margin:12px 0;padding:0 22px}
+summary{cursor:pointer;font-weight:700;font-size:21px;padding:18px 34px 18px 0;list-style:none;position:relative}
 summary::-webkit-details-marker{display:none}
-summary:after{content:"+";float:right;color:var(--red);font-size:28px;line-height:1}
+summary:after{content:"+";position:absolute;right:0;top:12px;font-size:30px;color:var(--red);font-weight:700}
 details[open] summary:after{content:"–"}
-details p{margin:12px 0 0}
-footer{border-top:1px solid var(--line);padding:34px 0 120px;text-align:center;font-size:17px;color:var(--muted)}
-footer b{font-family:'Playfair Display',serif;font-size:22px;color:var(--ink)}
-footer a{color:var(--muted)}
-.sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(251,244,232,.97);border-top:1px solid var(--line);padding:10px 16px;display:none;z-index:9}
-.sticky a{display:block;text-align:center;background:var(--red);color:#fff;text-decoration:none;font-weight:700;font-size:21px;padding:15px;border-radius:10px}
-@media (max-width:760px){
-  body{font-size:20px}
-  section{padding:40px 0}
-  .hero,.story{grid-template-columns:1fr;gap:26px}
-  .hero .art{order:-1;max-width:190px;margin:0 auto}
-  .grid4{grid-template-columns:1fr}
+details p{padding-bottom:6px}
+
+/* footer */
+.final{background:var(--navy);color:#fff;text-align:center}
+.final h2{color:#fff}
+.final p{opacity:.92}
+footer{padding:34px 0 120px;text-align:center;font-size:15.5px;color:var(--muted)}
+footer .brand{font-family:'Playfair Display',serif;font-weight:700;font-size:22px;color:var(--ink);margin-bottom:8px}
+
+/* sticky */
+.sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(251,246,238,.97);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));display:flex;gap:12px;align-items:center;justify-content:center;z-index:20;transform:translateY(110%);transition:transform .25s;box-shadow:0 -8px 20px rgba(60,30,10,.1)}
+.sticky.on{transform:none}
+.sticky .t{font-weight:700;font-size:17px;line-height:1.2}
+.sticky .t small{display:block;font-weight:600;color:var(--muted);font-size:14px}
+.sticky a{background:var(--red);color:#fff;text-decoration:none;font-weight:800;font-size:19px;padding:13px 22px;border-radius:12px;white-space:nowrap}
+
+@media (max-width:900px){
+  .hero-grid,.story-grid,.who-grid{grid-template-columns:1fr}
+  .hero{padding-top:30px}
+  .hero .book{order:-1}
+  .book .b3d{width:min(210px,56%)}
+  .badge{width:84px;height:84px;font-size:12px;left:-30px;bottom:40px}
+  .badge b{font-size:21px}
+  .parts{grid-template-columns:1fr 1fr}
   .pages{grid-template-columns:1fr 1fr}
-  .sticky{display:block}
-  .btn{font-size:23px}
+  .facts-grid{grid-template-columns:1fr;gap:26px}
 }
+@media (max-width:620px){
+  body{font-size:20px}
+  section{padding:54px 0}
+  .wrap,.narrow{padding:0 16px}
+  .parts,.bonus-grid{grid-template-columns:1fr}
+  .btn{font-size:22px;padding:19px 22px;width:100%}
+  .secret{padding:22px 18px 18px 18px}
+  .secret .num{position:static;margin-bottom:10px}
+  .q{padding:13px 4px;gap:12px}
+  .q span.txt{font-size:18.5px}
+  .calc-foot .total{font-size:44px}
+  .pricebox .price{font-size:64px}
+  .compare{grid-template-columns:1fr}
+  .compare .vs{display:none}
+  .ribbon{font-size:14px}
+  .ribbon .hide-sm{display:none}
+}
+@media (min-width:901px){ .sticky{display:none} }
+
+/* pay-guide */
+.howpay{background:var(--paper);border:2px solid var(--line);border-radius:20px;padding:26px 28px;box-shadow:0 6px 16px rgba(60,30,10,.06)}
+.howpay ol{margin:10px 0 0;padding-left:0;list-style:none;counter-reset:s}
+.howpay li{counter-increment:s;position:relative;padding:10px 0 10px 54px;border-bottom:1px dashed var(--line)}
+.howpay li:last-child{border-bottom:0}
+.howpay li:before{content:counter(s);position:absolute;left:0;top:10px;width:38px;height:38px;border-radius:50%;background:var(--navy);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+.en{display:inline-block;white-space:nowrap;background:#22170f;color:#fff;font-weight:700;border-radius:8px;padding:0 10px;font-size:.92em}
+.q.warn span.amt{color:var(--navy)}
 </style>
 </head>
 <body>
-<div class="top">📒 Il Quaderno di Casa</div>
 
-<section>
-  <div class="wrap hero">
+<div class="ribbon">✦ Aggiornato al 2026 <span>·</span> PDF scritto in grande <span class="hide-sm">·</span> <span class="hide-sm" style="opacity:1;margin:0">Download immediato</span></div>
+<div class="brandbar">📒 Il Quaderno di Casa</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap hero-grid">
     <div>
       <div class="kicker">I trucchi del quaderno nero di mia madre</div>
-      <h1>101 Segreti per risparmiare fino a <span class="big">2.500 €</span> l'anno</h1>
-      <p class="sub">Su spesa, bollette, banca e farmacia, ogni giorno. Quello che supermercati e banche non vogliono farti sapere.</p>
-      <a class="btn buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa">Voglio la guida – 17,90 €</a>
-      <div class="small">Pagamento unico · PDF di 113 pagine scritto in grande · Download immediato</div>
+      <h1>101 Segreti per risparmiare fino a <span class="amt">2.500&nbsp;€ l'anno</span></h1>
+      <p class="sub">Piccoli gesti di tutti i giorni per spendere meno su spesa, caffè, bollette, banca e farmacia, chiedere gli aiuti che ti spettano e non cadere mai in una truffa.</p>
+      <ul class="checks">
+        <li>Niente app, niente conti complicati, niente investimenti</li>
+        <li>Parole semplici, <b>scritto in grande</b>, un segreto alla volta</li>
+        <li>Ogni segreto finisce con <b>«Cosa fare»</b>: cosa dire, dove chiedere</li>
+      </ul>
+      <a class="btn buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa">Sì, voglio la guida – 17,90 €<small>PDF da scaricare subito · pagamento unico</small></a>
+      <p class="micro"><b>Nessun abbonamento.</b> Si legge sul telefono, sul tablet o sul computer, oppure si stampa e si tiene in cucina.</p>
     </div>
-    <div class="art"><img class="cover" src="img/cover.jpg" width="700" height="1050" alt="Copertina della guida 101 Segreti per Risparmiare fino a 2.500 € l'Anno"></div>
-  </div>
-</section>
-
-<section class="alt">
-  <div class="wrap">
-    <h2>Ogni volta che fai la spesa, qualcuno ti porta via dei soldi</h2>
-    <div class="grid4">
-      <div class="pill"><span class="x">✕</span>Confezioni più piccole, stesso prezzo</div>
-      <div class="pill"><span class="x">✕</span>Offerte che non sono offerte</div>
-      <div class="pill"><span class="x">✕</span>Bollette che salgono</div>
-      <div class="pill"><span class="x">✕</span>Costi nascosti in banca</div>
-    </div>
-    <div class="alert">Per una coppia di pensionati possono essere fino a 2.500&nbsp;€&nbsp;l'anno.</div>
-  </div>
-</section>
-
-<section>
-  <div class="wrap story">
-    <img src="img/quaderno.jpg" width="1100" height="619" alt="Il quaderno nero con i prezzi e i trucchi" loading="lazy">
-    <div>
-      <h2>Il quaderno nero di mia madre</h2>
-      <p>Mia madre ha cresciuto quattro figli con lo stipendio di un operaio, e in casa non è mai mancato niente.</p>
-      <p>Il suo segreto era un quaderno nero pieno di prezzi e di trucchi. Questa guida è quel quaderno, aggiornato al 2026.</p>
+    <div class="book">
+      <div class="b3d">
+        <img src="img/cover.jpg" width="700" height="1050" alt="Copertina della guida 101 Segreti per Risparmiare fino a 2.500 € l'Anno">
+        <div class="badge"><b>101</b>segreti<br>113 pagine</div>
+      </div>
     </div>
   </div>
-</section>
+</header>
 
-<section class="alt">
-  <div class="wrap">
-    <h2>Cosa trovi dentro</h2>
-    <ul class="check">
-      <li>Il test: quanto stai perdendo ogni anno senza saperlo</li>
-      <li>Le trappole del supermercato e le confezioni che si rimpiccioliscono</li>
-      <li>Il carrello intelligente, reparto per reparto</li>
-      <li>La cucina di mia madre: niente sprechi e 12 ricette povere ma buone</li>
-      <li>Bollette, telefono, banca e farmacia: i costi nascosti</li>
-      <li>I soldi che lo Stato ti deve: ISEE, bonus, Carta Acquisti, esenzioni 2026</li>
-      <li>Le truffe agli anziani e come non caderci mai</li>
-      <li>Il piano di 30 giorni</li>
+<!-- FACTS -->
+<div class="facts">
+  <div class="wrap facts-grid">
+    <div class="fact"><div class="n">150&nbsp;€</div><div class="t">l'anno che due persone possono risparmiare solo passando dalle capsule alla <b>moka</b>.</div><div class="s">Segreto n. 37</div></div>
+    <div class="fact"><div class="n">fino a 300&nbsp;€</div><div class="t">l'anno che una coppia può spendere in <b>acqua in bottiglia</b>, più la fatica delle casse sulle scale.</div><div class="s">Segreto n. 36</div></div>
+    <div class="fact"><div class="n">80&nbsp;€</div><div class="t">ogni due mesi dalla <b>Carta Acquisti</b> per chi ha più di 65 anni e un ISEE basso. Tanti non la chiedono mai.</div><div class="s">Segreto n. 81</div></div>
+  </div>
+</div>
+
+<!-- PAIN -->
+<section class="pain">
+  <div class="narrow">
+    <h2 class="center">Ti suona familiare?</h2>
+    <ul class="x-list">
+      <li>Il pacco di biscotti è più piccolo. Il prezzo no.</li>
+      <li>La pensione è aumentata… e a fine mese non basta lo stesso.</li>
+      <li>Le bollette di luce, gas e telefono salgono un po' ogni anno.</li>
+      <li>Sull'estratto conto ci sono spese che non sai spiegare.</li>
+      <li>In farmacia lo stesso farmaco sembra costare ogni volta di più.</li>
+      <li>Ogni giorno arriva una telefonata o un messaggio che potrebbe essere una truffa.</li>
     </ul>
-    <div class="pages">
-      <img src="img/page_test.jpg" width="520" height="738" alt="Pagina del test" loading="lazy">
-      <img src="img/page_carrello.jpg" width="520" height="738" alt="Pagina sul carrello intelligente" loading="lazy">
-      <img src="img/page_ricette.jpg" width="520" height="738" alt="Pagina delle ricette" loading="lazy">
-      <img src="img/page_truffe.jpg" width="520" height="738" alt="Pagina sulle truffe" loading="lazy">
-    </div>
-    <p class="small center" style="margin-top:12px">Alcune pagine vere della guida.</p>
+    <div class="callout">Non è colpa tua. Supermercati, banche e compagnie spendono milioni per portarti via i soldi <b>un pezzetto alla volta</b>, così non te ne accorgi. Mia madre lo sapeva già cinquant'anni fa. Oggi è peggio, e questo libro ti mostra come difenderti.</div>
   </div>
 </section>
 
+<!-- STORY -->
+<section class="story">
+  <div class="wrap story-grid">
+    <div><img src="img/quaderno.jpg" width="1100" height="619" alt="Il quaderno nero con i prezzi e i trucchi di mia madre" loading="lazy"></div>
+    <div>
+      <div class="kicker">La storia di questo libro</div>
+      <h2>Il quaderno nero di mia madre</h2>
+      <p>Mia madre ha cresciuto quattro figli con lo stipendio di un operaio. Non siamo mai stati ricchi, ma in casa non è mai mancato niente, e in fondo all'armadio c'era sempre <em>qualcosa da parte</em>.</p>
+      <p>Il suo segreto era un quaderno nero che teneva nel cassetto della cucina. Ogni prezzo, ogni bolletta, ogni trucco. Quando un prezzo saliva, lo sottolineava due volte in rosso.</p>
+      <blockquote class="mom">«I soldi non finiscono. Te li portano via un pezzetto alla volta, e tu non te ne accorgi.»</blockquote>
+      <p>Questo libro è quel quaderno, aggiornato al 2026 e scritto in grande, perché possa fare per la tua cucina quello che ha fatto per la sua.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CALCULATOR -->
+<section style="padding-top:20px">
+  <div class="narrow">
+    <div class="calc" id="calc">
+      <div class="calc-head">
+        <h2>Quanto stai perdendo, senza saperlo?</h2>
+        <p>È il test di un minuto che trovi all'inizio del libro. Tocca ogni frase <b>vera</b> per te.</p>
+      </div>
+      <div class="calc-body">
+        <label class="q"><input type="checkbox" data-v="150"><span class="txt">Vado al supermercato senza una lista scritta.</span><span class="amt">150 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="100"><span class="txt">Compro spesso i prodotti «in offerta» in testata, vicino alla cassa o all'ingresso.</span><span class="amt">100 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="120"><span class="txt">Non guardo mai il prezzo al chilo o al litro scritto piccolo sull'etichetta.</span><span class="amt">120 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="200"><span class="txt">Compro quasi sempre le marche famose, quelle della pubblicità.</span><span class="amt">200 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="250"><span class="txt">Almeno una volta a settimana butto via cibo andato a male.</span><span class="amt">250 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="150"><span class="txt">Non so con quale compagnia ho il contratto della luce, né quanto pago al kWh.</span><span class="amt">150 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="500"><span class="txt">Non ho mai fatto l'ISEE (o non l'ho rinnovato quest'anno).</span><span class="amt">fino a 500 €</span></label>
+        <label class="q"><input type="checkbox" data-v="150"><span class="txt">Pago il telefono di casa e anche il cellulare, e uso poco tutti e due.</span><span class="amt">150 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="80"><span class="txt">Non ho mai letto l'estratto conto della banca riga per riga.</span><span class="amt">80 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="80"><span class="txt">In farmacia prendo il farmaco di marca senza chiedere se c'è l'equivalente.</span><span class="amt">80 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="60"><span class="txt">Non conservo gli scontrini della farmacia per la dichiarazione dei redditi.</span><span class="amt">60 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="200"><span class="txt">Ho firmato un contratto (luce, gas, telefono) con qualcuno che mi ha chiamato o suonato alla porta.</span><span class="amt">200 €/anno</span></label>
+        <label class="q"><input type="checkbox" data-v="50"><span class="txt">Lascio la TV, il decoder e il caricabatterie sempre attaccati alla presa.</span><span class="amt">50 €/anno</span></label>
+        <label class="q warn"><input type="checkbox" data-v="0" data-scam="1"><span class="txt">Se al telefono mi dicono che un familiare è nei guai, penso subito a come aiutarlo con i soldi.</span><span class="amt">tutto</span></label>
+      </div>
+      <div class="calc-foot">
+        <div><div class="lbl">Potresti perdere circa</div><div class="total"><span id="tot">0 €</span><span style="font-size:24px"> l'anno</span></div></div>
+        <div class="msg" id="msg">Tocca le frasi qui sopra per vedere il tuo numero.</div>
+      </div>
+      <div class="calc-cta">
+        <a class="btn wide buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa">Voglio tenermeli – 17,90 €<small>101 segreti · PDF da scaricare subito</small></a>
+        <p class="micro" style="margin-bottom:0">Sono le stime del test del libro. Il risparmio vero dipende dalle tue abitudini.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSIDE -->
 <section>
   <div class="wrap">
+    <div class="center">
+      <div class="kicker">Cosa trovi dentro</div>
+      <h2>Sei parti, come le stanze di una casa</h2>
+      <p class="muted narrow" style="padding:0">Ogni segreto finisce con un riquadro <b>«Cosa fare»</b>: cosa dire, dove andare, cosa chiedere. Niente teoria.</p>
+    </div>
+    <div class="parts">
+      <div class="part"><span class="cnt">n. 1–20</span><div class="ic">🛒</div><div class="pn">Parte 1</div><h3>L'Inganno del Supermercato</h3><ul><li>Perché pane e latte sono sempre in fondo</li><li>Il prezzo piccolo che dice la verità</li><li>Confezioni che si rimpiccioliscono e finti «3 per 2»</li></ul></div>
+      <div class="part"><span class="cnt">n. 21–40</span><div class="ic">🧺</div><div class="pn">Parte 2</div><h3>Il Carrello Intelligente</h3><ul><li>La marca del supermercato e chi la produce davvero</li><li>Olio, pasta, formaggi: come comprarli meglio</li><li>Acqua in bottiglia e capsule: centinaia di euro</li></ul></div>
+      <div class="part"><span class="cnt">n. 41–50</span><div class="ic">🍲</div><div class="pn">Parte 3</div><h3>La Cucina di Mia Madre</h3><ul><li>«Da consumarsi entro» non è «preferibilmente entro»</li><li>Il congelatore, la banca della cucina</li><li>12 ricette povere ma buone</li></ul></div>
+      <div class="part"><span class="cnt">n. 51–86</span><div class="ic">💡</div><div class="pn">Parte 4</div><h3>Le Trappole di Ogni Giorno</h3><ul><li>Bollette, telefono e abbonamenti dimenticati</li><li>Banca, assicurazioni e farmacia</li><li>ISEE, Carta Acquisti, quattordicesima, canone RAI</li></ul></div>
+      <div class="part"><span class="cnt">n. 87–98</span><div class="ic">🛡️</div><div class="pn">Parte 5</div><h3>Difendi il Tuo Portafoglio</h3><ul><li>Il finto nipote e il finto carabiniere</li><li>«Ciao mamma, ho cambiato numero»</li><li>Il finto tecnico alla porta</li></ul></div>
+      <div class="part"><span class="cnt">n. 99–101</span><div class="ic">❤️</div><div class="pn">Parte 6</div><h3>La Vita che Ti Meriti</h3><ul><li>Il conto finale: da dove arrivano i 2.500 €</li><li>La regola delle tre buste</li><li>Il piano di 30 giorni</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- FREE SECRETS -->
+<section class="free">
+  <div class="narrow">
+    <div class="center">
+      <div class="kicker">Provali prima di comprare</div>
+      <h2>Tre segreti del libro, gratis</h2>
+      <p class="muted">Usali già da domani. Se questi tre valgono per te più di 17,90 €, immagina gli altri 98.</p>
+    </div>
+
+    <div class="secret"><div class="num">8</div>
+      <h3>Il prezzo vero è quello piccolo: il prezzo al chilo</h3>
+      <p>Sull'etichetta, oltre al prezzo grande, la legge obbliga il negozio a scrivere il prezzo al chilo o al litro. È scritto piccolo, ma è l'unico che conta. Esempio: biscotti da 350 g a 2,10 € e da 500 g a 2,60 €. Il primo costa 6,00 € al chilo, il secondo 5,20 €. Il secondo conviene, anche se sembra più caro. E la confezione «famiglia» non sempre conviene.</p>
+      <p class="do"><b>Cosa fare:</b> porta gli occhiali da lettura e guarda sempre il prezzo piccolo. Se non riesci a leggerlo, chiedi al personale: è un tuo diritto.</p>
+    </div>
+
+    <div class="secret"><div class="num">37</div>
+      <h3>Il caffè: la moka di casa batte la capsula</h3>
+      <p>Un caffè con le capsule può costare tre o quattro volte un caffè fatto con la moka e un buon macinato in offerta. Per due persone che ne bevono due al giorno, la differenza in un anno può superare <b>150 €</b>.</p>
+      <p class="do"><b>Cosa fare:</b> usa la macchinetta a capsule per gli ospiti e, tutti i giorni, torna alla moka. Se ami le capsule, confronta il prezzo «a tazzina» delle compatibili.</p>
+    </div>
+
+    <div class="secret"><div class="num">74</div>
+      <h3>Il farmaco equivalente: stesso principio attivo, prezzo più basso</h3>
+      <p>L'equivalente (una volta si chiamava «generico») contiene lo stesso principio attivo, nella stessa quantità, del farmaco di marca. Costa meno perché il brevetto è scaduto. Se scegli la marca, la differenza la paghi tu, e su una terapia di tutti i giorni in un anno pesa.</p>
+      <p class="do"><b>Cosa fare:</b> chiedi sempre al farmacista: <em>«C'è l'equivalente?»</em>. Se il medico preferisce una marca precisa, sarà lui a dirtelo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PREVIEW -->
+<section>
+  <div class="wrap">
+    <div class="center">
+      <div class="kicker">Sfoglia qualche pagina</div>
+      <h2>Pagine vere del libro</h2>
+      <p class="muted">Scritto in grande, capitoli brevi. Una guida da leggere con un caffè.</p>
+    </div>
+    <div class="pages">
+      <figure><img src="img/page_test.jpg" width="520" height="738" alt="Pagina del test" loading="lazy"><figcaption>Il test di un minuto</figcaption></figure>
+      <figure><img src="img/page_carrello.jpg" width="520" height="738" alt="Pagina sul carrello intelligente" loading="lazy"><figcaption>Il carrello intelligente</figcaption></figure>
+      <figure><img src="img/page_ricette.jpg" width="520" height="738" alt="Pagina delle ricette" loading="lazy"><figcaption>12 ricette di casa</figcaption></figure>
+      <figure><img src="img/page_truffe.jpg" width="520" height="738" alt="Pagina sulle truffe" loading="lazy"><figcaption>Difendersi dalle truffe</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- BONUS -->
+<section style="padding-top:10px">
+  <div class="narrow">
     <div class="bonus">
-      <h2>🎁 In regalo 4 strumenti da stampare</h2>
+      <h2 style="font-size:clamp(28px,4vw,38px)">🎁 Incluso: 4 strumenti da stampare + 12 ricette</h2>
+      <div class="bonus-grid">
+        <div class="bonus-item"><div class="ic">📝</div><div><b>La lista «Non comprare mai»</b><span>Sta nel portafoglio, vicino alla lista della spesa.</span></div></div>
+        <div class="bonus-item"><div class="ic">📒</div><div><b>Il Quaderno del Risparmio</b><span>Pagine mese per mese per vedere quanto metti da parte.</span></div></div>
+        <div class="bonus-item"><div class="ic">☎️</div><div><b>Il Cartello Anti-Truffa</b><span>Da attaccare vicino al telefono. Può salvare tutto.</span></div></div>
+        <div class="bonus-item"><div class="ic">🗓️</div><div><b>Il Calendario della Spesa</b><span>Frutta e verdura di stagione, mese per mese.</span></div></div>
+        <div class="bonus-item"><div class="ic">🍝</div><div><b>12 ricette di casa</b><span>Pasta e fagioli, pappa al pomodoro, polpette di pane…</span></div></div>
+        <div class="bonus-item"><div class="ic">✅</div><div><b>Il piano di 30 giorni</b><span>Pochi passi a settimana. In un mese è fatto.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO -->
+<section>
+  <div class="narrow">
+    <h2 class="center">Per chi è questa guida</h2>
+    <div class="who-grid">
+      <div class="who"><ul class="checks" style="margin:0">
+        <li>Sei in pensione, o quasi, e vuoi che i soldi arrivino a fine mese</li>
+        <li>Vuoi cose pratiche da fare <b>questa settimana</b>, non prediche</li>
+        <li>Preferisci leggere su carta o con lettere grandi e chiare</li>
+        <li>Vuoi proteggere te stesso (o i tuoi genitori) dalle truffe</li>
+        <li>Cerchi un regalo utile per la mamma, il papà o i nonni</li>
+      </ul></div>
+      <div class="who no"><h3 style="font-size:22px">Non fa per te se…</h3><ul class="checks" style="margin:0">
+        <li>cerchi consigli di borsa o modi per arricchirti</li>
+        <li>già controlli ogni euro e non paghi mai una commissione</li>
+      </ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE -->
+<section class="price-sec" id="prezzo">
+  <div class="wrap">
+    <div class="pricebox">
+      <div class="top">IL QUADERNO DI CASA · EDIZIONE 2026</div>
+      <div class="inner">
+        <img class="cov" src="img/cover_sm.jpg" width="360" height="540" alt="La copertina della guida" loading="lazy">
+        <h2 style="font-size:clamp(28px,4vw,36px);margin-bottom:6px">Paghi una volta. Risparmi ogni anno.</h2>
+        <div class="compare">
+          <div class="c"><span>La guida</span><b>17,90 €</b><span>una volta sola</span></div>
+          <div class="vs">contro</div>
+          <div class="c big"><span>Quanto può farti risparmiare</span><b>fino a 2.500 €</b><span>ogni anno</span></div>
+        </div>
+        <ul class="value">
+          <li><span>101 segreti per il 2026 (113 pagine scritte in grande)</span><b>✓</b></li>
+          <li><span>I soldi che lo Stato ti deve: ISEE, Carta Acquisti, esenzioni</span><b>✓</b></li>
+          <li><span>La guida completa contro le truffe + Cartello Anti-Truffa</span><b>✓</b></li>
+          <li><span>12 ricette + 4 strumenti da stampare + piano di 30 giorni</span><b>✓</b></li>
+        </ul>
+        <div class="price">17,90 €</div>
+        <div class="once">Pagamento unico · nessun abbonamento</div>
+        <p class="micro" style="margin:6px 0 20px">Meno di una pizza per due.</p>
+        <a class="btn wide buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa">Scarica la guida adesso<small>Il PDF è pronto subito dopo il pagamento</small></a>
+        <div class="trust"><span>🔒 Pagamento sicuro con Whop</span><span>📥 PDF subito dopo il pagamento</span><span>📱 Telefono, tablet, computer o stampa</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO PAY -->
+<section style="padding-top:10px">
+  <div class="narrow">
+    <div class="howpay">
+      <h2 style="font-size:clamp(26px,4vw,34px)">Come si paga, passo per passo</h2>
+      <p class="muted" style="margin:0">La pagina di pagamento è del servizio sicuro Whop ed è scritta in inglese. Niente paura, è semplicissima:</p>
       <ol>
-        <li>La lista «Non comprare mai»</li>
-        <li>Il Quaderno del Risparmio</li>
-        <li>Il Cartello Anti-Truffa</li>
-        <li>Il Calendario della Spesa</li>
+        <li>Premi il pulsante rosso <b>«Voglio la guida»</b>.</li>
+        <li>Se il tuo telefono lo propone, puoi pagare con <b>Google Pay</b> o <b>Apple Pay</b> con un tocco.</li>
+        <li>Altrimenti scrivi la tua <b>email</b> (<span class="en">Email</span>) e i dati della carta (<span class="en">Card information</span>): numero, scadenza e codice di 3 cifre sul retro.</li>
+        <li>Scrivi nome e indirizzo (<span class="en">Billing details</span>) e premi il pulsante nero <span class="en">Join</span>, che vuol dire «Conferma».</li>
+        <li>Si apre subito una pagina con il pulsante rosso <b>«Scarica il PDF»</b>. Fatto!</li>
       </ol>
     </div>
   </div>
 </section>
 
-<section class="alt" id="prezzo">
-  <div class="wrap center">
-    <div class="price">
-      <h2>Meno di una pizza per due</h2>
-      <div class="p">17,90 €</div>
-      <div style="font-weight:700">una volta sola, nessun abbonamento</div>
-      <a class="btn buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa">Scarica la guida adesso</a>
-      <div class="trust"><span>🔒 Pagamento sicuro con Whop</span><span>📩 PDF subito dopo il pagamento</span><span>📱 Si legge sul telefono o si stampa</span></div>
-    </div>
+<!-- FAQ -->
+<section>
+  <div class="narrow">
+    <h2 class="center">Domande frequenti</h2>
+    <details open><summary>Come ricevo la guida?</summary><p>Subito dopo il pagamento si apre una pagina con un grande pulsante rosso «Scarica il PDF». Ricevi anche un'email di conferma. Funziona su telefono, tablet e computer, e si può stampare.</p></details>
+    <details><summary>Non sono pratica di computer: riesco a usarla?</summary><p>Sì. È un semplice PDF scritto in grande, con parole semplici. Si apre con un tocco. Molti lo stampano e lo tengono nel cassetto della cucina, come mia madre teneva il suo quaderno.</p></details>
+    <details><summary>È un abbonamento?</summary><p>No. Paghi 17,90 € una volta sola e la guida resta tua. Nessun rinnovo, nessun costo nascosto.</p></details>
+    <details><summary>Con cosa posso pagare?</summary><p>Con carta di credito, di debito o prepagata (Visa, Mastercard e altre), oppure con Google Pay e Apple Pay se li usi sul telefono. Il pagamento passa dal servizio sicuro Whop.</p></details>
+    <details><summary>Le informazioni sono aggiornate?</summary><p>Sì. Bonus, soglie ISEE, Carta Acquisti, esenzioni e regole sono quelli del 2026, e per ogni aiuto la guida ti dice dove verificarlo gratis (CAF, patronato, Comune), perché alcune regole cambiano.</p></details>
+    <details><summary>Vale in tutta Italia?</summary><p>Sì. I segreti su spesa, cucina, bollette, banca, farmacia e truffe valgono ovunque. Per gli aiuti che cambiano da Comune a Comune, la guida ti spiega a chi chiedere.</p></details>
+    <details><summary>È una consulenza finanziaria?</summary><p>No. Sono consigli pratici di tutti i giorni, da una famiglia all'altra. Niente investimenti e niente da comprare. Per le decisioni sulla tua situazione, la guida ti indica dove trovare aiuto gratuito.</p></details>
+    <details><summary>Posso regalarla?</summary><p>Certo. Comprala, scaricala e stampala o mandala per email alla mamma, al papà o ai nonni. Forse sarà il regalo più utile dell'anno.</p></details>
   </div>
 </section>
 
-<section>
-  <div class="wrap" style="max-width:820px">
-    <h2>Domande frequenti</h2>
-    <details open><summary>Come ricevo la guida?</summary><p>Subito dopo il pagamento ricevi un'email con l'accesso e scarichi il PDF.</p></details>
-    <details><summary>Non sono pratica di computer: riesco a usarla?</summary><p>Sì, è un semplice PDF scritto in grande. Si apre sul telefono o si stampa.</p></details>
-    <details><summary>È un abbonamento?</summary><p>No, paghi una volta sola.</p></details>
-    <div class="center"><a class="btn buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa">Voglio la guida – 17,90 €</a></div>
+<!-- FINAL -->
+<section class="final">
+  <div class="narrow">
+    <h2>Smetti di perdere soldi un pezzetto alla volta</h2>
+    <p>Fino a 2.500 € l'anno restano a te. Tienili per le cose che contano: i nipoti, un viaggio, una cena fuori, e la tranquillità di avere qualcosa da parte.</p>
+    <a class="btn buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa" style="margin-top:12px">Sì, voglio la guida – 17,90 €<small>PDF da scaricare subito</small></a>
   </div>
 </section>
 
 <footer>
-  <div class="wrap">
-    <b>Il Quaderno di Casa</b>
-    <p style="margin-top:10px">Le informazioni hanno scopo pratico e informativo; verifica sempre bonus e scadenze presso CAF, patronato o ente competente.</p>
-    <p>Pagamenti gestiti da Whop · <a href="https://whop.com/tos/" rel="noopener">Termini</a> · <a href="https://whop.com/privacy/" rel="noopener">Privacy</a></p>
+  <div class="narrow">
+    <div class="brand">Il Quaderno di Casa</div>
+    <p>Questa guida contiene informazioni generali e consigli pratici. Non è una consulenza legale, fiscale, finanziaria, assicurativa o medica. Bonus, soglie e regole sono quelli disponibili per il 2026 e possono cambiare: verifica sempre presso CAF, patronato o ente competente. Le cifre di risparmio sono stime e dipendono dalle abitudini di ogni famiglia. Aziende e servizi sono citati solo come esempio, senza alcun rapporto commerciale.</p>
+    <p>Pagamenti gestiti in sicurezza da Whop · <a href="https://whop.com/tos/" rel="noopener">Termini</a> · <a href="https://whop.com/privacy/" rel="noopener">Privacy</a></p>
+    <p>© 2026 Il Quaderno di Casa</p>
   </div>
 </footer>
 
-<div class="sticky"><a class="buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa">Voglio la guida – 17,90 €</a></div>
+<div class="sticky" id="sticky"><div class="t">101 Segreti<small>PDF scritto in grande · subito</small></div><a class="buy" href="https://whop.com/checkout/plan_Tesl3g7FWWKHa">Voglio la guida – 17,90 €</a></div>
 
+<script>
+(function(){
+  var CHECKOUT = "https://whop.com/checkout/plan_Tesl3g7FWWKHa";
+  document.querySelectorAll('a.buy').forEach(function(a){ a.href = CHECKOUT; });
+
+  // calcolatore del test
+  var boxes = document.querySelectorAll('#calc input[type=checkbox]');
+  var tot = document.getElementById('tot'), msg = document.getElementById('msg');
+  var shown = 0, raf;
+  function fmt(n){ return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, '.') + ' €'; }
+  function animate(to){
+    cancelAnimationFrame(raf);
+    var from = shown, t0 = performance.now();
+    (function step(t){
+      var k = Math.min(1, (t - t0) / 450), e = 1 - Math.pow(1 - k, 3);
+      shown = from + (to - from) * e; tot.textContent = fmt(shown);
+      if (k < 1) raf = requestAnimationFrame(step);
+    })(t0);
+  }
+  function update(){
+    var sum = 0, n = 0, scam = false;
+    boxes.forEach(function(b){ if (b.checked){ sum += +b.dataset.v; n++; if (b.dataset.scam) scam = true; } });
+    animate(sum);
+    var extra = scam ? ' <b>Hai toccato la frase sul familiare nei guai: leggi la Parte 5 oggi stesso, prima di tutto il resto.</b>' : '';
+    if (!n) msg.textContent = 'Tocca le frasi qui sopra per vedere il tuo numero.';
+    else if (n <= 3) msg.innerHTML = 'Sei già una persona attenta. Nel libro trovi l\'ultimo passo e qualche trappola nuova.' + extra;
+    else if (n <= 8) msg.innerHTML = 'Come la maggior parte di noi: circa <b>' + fmt(sum/12) + ' al mese</b> che puoi tenerti. Comincia dalle Parti 1 e 4.' + extra;
+    else msg.innerHTML = 'Hai più di tutti da guadagnare: circa <b>' + fmt(sum/12) + ' al mese</b>, ogni mese. Leggilo con calma, dall\'inizio.' + extra;
+  }
+  boxes.forEach(function(b){ b.addEventListener('change', update); });
+
+  // barra in basso (telefono) dopo la copertina
+  var sticky = document.getElementById('sticky'), hero = document.querySelector('.hero');
+  function onScroll(){
+    var past = hero.getBoundingClientRect().bottom < 0;
+    var nearEnd = (window.innerHeight + window.scrollY) > (document.body.scrollHeight - 260);
+    sticky.classList.toggle('on', past && !nearEnd);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+})();
+</script>
 </body>
 </html>
